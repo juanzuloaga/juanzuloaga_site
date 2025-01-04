@@ -1,0 +1,16 @@
+---
+title: "Education"
+format:
+  html:
+    self-contained: true
+    link-external-icon: true
+    link-external-newwindow: true
+toc: true
+editor: visual
+---
+
+**PhD. in Biology, University of Ottawa**, Canada. (2018) Supervisor: [Dr. Jeremy Kerr](https://macroecology.ca/) Research topic: *Predicting Broad-Scale Patterns of species endemism and Conservation Priorities*
+
+**Master in Environmental Studies (MES), York University**, Toronto Canada. (2011) Supervisor: Dr. Gail Fraser. Research topic: *Identifying suitable sites for multiple focal species using an ecological niche factor analysis in Toronto and Region.*
+
+**Certificate in Applied Digital Geography & GIS. Ryerson University**, Toronto, Canada. (2008)

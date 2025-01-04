@@ -1,0 +1,124 @@
+---
+title: "Outreach"
+format:
+  html:
+    self-contained: true
+    link-external-icon: true
+    link-external-newwindow: true
+toc: true
+editor: visual
+---
+
+## Training junior scientists and conservation practitioners
+
+I am leading the Ecodiversa Tropical Initiative for Biodiversity Conservation in Colombia. We provide opportunities to young scientists and practitioners to develop skills in data analysis and modeling for conservation purposes. To that end, my self and <a href="https://ecodiversa-talleres.github.io/Intro_Motivacional.html" target="_blank">Prof. Melissa Guzmán</a> from Cornell University developed various **R Tutorials in Spanish** (see [GitHub repo](https://github.com/juanzuloaga?tab=repositories)) aimed to provide training to Colombians' undergrad, grad students and conservation practitioners. Let's take a quick look at some of the workshops we have developed so far:
+
+::: {.callout-note collapse="true"}
+## Taller motivacional
+
+Al final de este [taller motivacional](https://juanzuloaga.github.io/Intro_Motivacional/Intro_Motivacional.html) usted podrá responder a:
+
+\- Por qué es importante desarrollar habilidades computacionales y de análisisi de datos?
+
+\- Por qué R y R Studio?
+
+![*Esquema conceptual de nuestro propósito con estos talleres*](Motivacional.png){fig-align="center" width="500"}
+:::
+
+::: {.callout-note collapse="true"}
+## Introducción a R
+
+Al final de este [Taller básico en R](https://juanzuloaga.github.io/IntroR_Bases/IntroR_Bases.html) usted podrá saber cómo:
+
+-   Usar R como calculadora
+
+-   Identificar y usar varios tipos de datos (ej: numéricos, caracteres)
+
+-   Crear un objeto y asignar valores al objeto
+
+-   Identificar y crear estructuras de datos (ej: vectores, data frames, listas y matrices)
+
+-   Aplicar funciones básicas matemáticas y estadísticas
+
+-   Enteder qué son funciones y paquetes en R
+
+-   Saber utilizar las ayudas en R
+
+![*Pantallazo de R-Studio mostrando los paneles y su utilidad*](r_rstudio.png){width="700"}
+:::
+
+::: {.callout-note collapse="true"}
+## Configurar R
+
+Al final de este taller de [Configuración](https://juanzuloaga.github.io/IntroR_Configurar/IntroR_Configurar.html) usted podrá:
+
+-   Crear carpetas
+
+-   Configurar directorio de trabajo
+
+-   Salvar código en R
+
+-   Crear un proyecto
+
+-   Crear rutas absoluta y relativa
+
+![*Crear un proyecto*](crear_proyecto.png){width="400"}
+:::
+
+::: {.callout-note collapse="true"}
+## Visualización de datos
+
+Al final de éste taller de [Visualización de datos](https://juanzuloaga.github.io/IntroR_Plots/IntroR_Plots.html), podrás aprender cómo:
+
+-   Definir el concepto de capas en un gráfico.
+
+-   Crear un "gráfico de caja" (box plot).
+
+-   Crear un "gráfico de dispersión" (scatter plot).
+
+-   Crear un diagrama de dispersión incluyendo una "línea de regresión" (linear regression).
+
+-   Crear un "histograma" (histograma).
+
+-   Crear un "gráfico de barras" (bar graph).
+
+![*Estructura general de un código en R para visualizar datos udando el paquete ggplot2*](ggplotcode.jpg){width="1200"}
+:::
+
+::: {.callout-note collapse="true"}
+## Manejo de datos
+
+Al final de este taller de [Manejo de datos](https://juanzuloaga.github.io/IntroR_ManejarDatos/IntroR_ManejarDatos.html), podrás aprender cómo:
+
+-   Agrupar y resumir datos usando el paquete "dplyr".
+
+-   Usar las funciones mutate(), filter(), select(), group_by() y summarise() del paquete "dplyr" para modificar estructuras de datos.
+
+-   Usar las funciones group_by() y summarise() para analizar estructuras de datos.
+
+-   Cargar datos en varios formatos.
+
+-   Usar las funciones pivot_longer() y pivot_wider() del paquete "tidyr" para modificar la disposición de estructuras de datos. Usar las funciones str_replace() y str_remove() del paquete "stringr" para manipular caracteres en estructuras de datos.
+
+![*Cómo filtrar datos en R usando dply::filter()*](filter.png){width="600"}
+:::
+
+::: {.callout-note collapse="true"}
+## Análisis espacial
+
+Al final de este taller de [Análisis espacial](https://juanzuloaga.github.io/IntroR_espacial/Intro_espacial.html)usted podrá:
+
+-   Identificar las características de los datos espaciales, en sus dos formatos: ráster y vectorial.
+
+-   Conocer los paquetes y funciones en R más utilizados para el manejo de los dos formatos.
+
+-   Utilizar bases de datos de libre acceso disponibles en la web.
+
+-   Integrar y graficar los dos formatos
+
+-   Implemetar algunos análisis espaciales que pueden servir de herramientas para la toma de decisiones en la conservación de la biodiversidad.
+
+![*Métodos locales en análisis espacial*](Espacial.png){width="800"}
+:::
+
+## 

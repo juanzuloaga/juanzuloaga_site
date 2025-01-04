@@ -1,0 +1,26 @@
+project:
+  type: website
+
+website:
+  title: "juanzuloaga_site"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: Experience
+      - href: Education.qmd
+        text: Education
+      - href: Publications.qmd
+        text: Publications
+      - href: Outreach.qmd
+        text: Outreach
+
+format:
+  html:
+    theme: yeti
+    page-layout: article
+    toc: false
+
+editor: visual
+

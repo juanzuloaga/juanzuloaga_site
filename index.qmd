@@ -1,0 +1,15 @@
+---
+title: "Juan Zuloaga"
+format:
+  html:
+    self-contained: true
+    link-external-icon: true
+    link-external-newwindow: true
+toc: true
+editor: visual
+css:  styles.css
+---
+
+<img src="images/Juan-Zuloaga-photo.jpg" alt="my_image" width="350" align="left" hspace="30"/>
+
+#### I am a spatial ecologist and conservation scientist, interested in developing models and tools to inform biodiversity conservation.
