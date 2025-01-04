@@ -1,1 +1,1 @@
-Juan Zuloaga's site
+Juan Zuloaga's site https://juanzuloaga.github.io/juanzuloaga_site/
