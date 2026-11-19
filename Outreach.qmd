@@ -1,20 +1,28 @@
 ---
-title: "Outreach"
 format:
   html:
     self-contained: true
     link-external-icon: true
     link-external-newwindow: true
-toc: true
+toc: false
 editor: visual
 ---
 
-## Training junior scientists and conservation practitioners
+# 1. Professional and academic services
+::: {style="text-align: justify;"}
+I have provided extensive professional and academic service to sustain the scholarly community and advance institutional missions, including conducting peer reviews for scientific journals and mentoring, training, and advising emerging researchers and students. Several of these initiatives were carried out through Ecodiversa Tropical, a Colombian NGO dedicated to biodiversity conservation.
+:::
+::: panel-tabset
+## Training
 
-I am leading the Ecodiversa Tropical Initiative for Biodiversity Conservation in Colombia. We provide opportunities to young scientists and practitioners to develop skills in data analysis and modeling for conservation purposes. To that end, my self and <a href="https://ecodiversa-talleres.github.io/Intro_Motivacional.html" target="_blank">Prof. Melissa Guzmán</a> from Cornell University developed various **R Tutorials in Spanish** (see [GitHub repo](https://github.com/juanzuloaga?tab=repositories)) aimed to provide training to Colombians' undergrad, grad students and conservation practitioners. Let's take a quick look at some of the workshops we have developed so far:
+### Training junior scientists and conservation practitioners
+
+I am committed to creating opportunities for early-career scientists and practitioners to build skills in data analysis and modeling for conservation. To that end, <a href="https://edslab.org/" target="_blank">Prof. Melissa Guzmán</a> (Cornell University) and I developed a series of Spanish-language R tutorials (see [GitHub repo](https://github.com/juanzuloaga?tab=repositories)) designed to train Colombian undergraduate and graduate students alongside conservation practitioners. We also successfully raised funds to help bridge the conservation genetics knowledge gap across the Spanish-speaking Global South (see [Experiment initiative](https://experiment.com/projects/bridging-the-conservation-genetics-knowledge-gap-in-the-spanish-speaking-global-south)).
+
+Here is a look at the workshops we have developed so far:
 
 ::: {.callout-note collapse="true"}
-## Taller motivacional
+#### Taller motivacional
 
 Al final de este [taller motivacional](https://juanzuloaga.github.io/Intro_Motivacional/Intro_Motivacional.html) usted podrá responder a:
 
@@ -26,7 +34,7 @@ Al final de este [taller motivacional](https://juanzuloaga.github.io/Intro_Motiv
 :::
 
 ::: {.callout-note collapse="true"}
-## Introducción a R
+#### Introducción a R
 
 Al final de este [Taller básico en R](https://juanzuloaga.github.io/IntroR_Bases/IntroR_Bases.html) usted podrá saber cómo:
 
@@ -48,7 +56,7 @@ Al final de este [Taller básico en R](https://juanzuloaga.github.io/IntroR_Base
 :::
 
 ::: {.callout-note collapse="true"}
-## Configurar R
+#### Configurar R
 
 Al final de este taller de [Configuración](https://juanzuloaga.github.io/IntroR_Configurar/IntroR_Configurar.html) usted podrá:
 
@@ -66,7 +74,7 @@ Al final de este taller de [Configuración](https://juanzuloaga.github.io/IntroR
 :::
 
 ::: {.callout-note collapse="true"}
-## Visualización de datos
+#### Visualización de datos
 
 Al final de éste taller de [Visualización de datos](https://juanzuloaga.github.io/IntroR_Plots/IntroR_Plots.html), podrás aprender cómo:
 
@@ -86,7 +94,7 @@ Al final de éste taller de [Visualización de datos](https://juanzuloaga.github
 :::
 
 ::: {.callout-note collapse="true"}
-## Manejo de datos
+#### Manejo de datos
 
 Al final de este taller de [Manejo de datos](https://juanzuloaga.github.io/IntroR_ManejarDatos/IntroR_ManejarDatos.html), podrás aprender cómo:
 
@@ -104,7 +112,7 @@ Al final de este taller de [Manejo de datos](https://juanzuloaga.github.io/Intro
 :::
 
 ::: {.callout-note collapse="true"}
-## Análisis espacial
+#### Análisis espacial
 
 Al final de este taller de [Análisis espacial](https://juanzuloaga.github.io/IntroR_espacial/Intro_espacial.html)usted podrá:
 
@@ -121,4 +129,87 @@ Al final de este taller de [Análisis espacial](https://juanzuloaga.github.io/In
 ![*Métodos locales en análisis espacial*](Espacial.png){width="800"}
 :::
 
-## 
+## Peer review
+
+I have served as an evaluator for Ecography (2) and EcoSience (1) peer-review journals.
+
+-   Evaluated original research manuscripts for methodology, statistical validity, and clarity.
+
+-   Provided critical, constructive feedback to authors to improve manuscript quality.
+
+-   Delivered recommendations to the Editorial Board regarding publication readiness.
+
+## Mentorship
+
+Over the past five years, I have mentored more than 10 students in Colombia, focusing on building their technical capacity in coding and spatial analysis.
+
+Beyond technical training, I have guided them through the graduate school application process, reviewing resumes, CVs, and portfolios, and helping them build personal websites to showcase their work.
+
+I have also collaborated with mentees on the conceptualization, design, and data analysis of graduate research projects aimed at publication in peer-reviewed journals. For instance,
+
+-   García-Atencia, et al. (2026). [Landscape configuration outweighs composition in shaping the diversity of phytophagous scarab beetles in the Serranía del Perijá, Colombia.](https://www.sciencedirect.com/science/article/pii/S2530064426000611). *Perspectives in Ecology and Conservation.* 24(4):426-433.
+
+## Webinars
+
+During the COVID-19 pandemic, I organized a 10-part webinar series titled Estudiantes aprendiendo de estudiantes (Students Learning from Students). The series provided a platform for graduate students to share their research and personal academic journeys, aiming to inform, mentor, and inspire undergraduate students to pursue graduate studies.
+
+::: {.callout-note collapse="true"}
+## See webinar series in YouTube
+
+Paola Carrión, McGill Univesity. Especies introducidas y ecosistemas insulares. {{< video https://www.youtube.com/watch?v=94yZji-DDxg width="300" height="150" >}}
+
+Angely Vásquez, McGill University. Evolución y hormigas {{< video https://www.youtube.com/watch?v=ValA8MONK6M&t=3s width="300" height="150" >}}
+
+Juan Pablo Ramirez, Northern Brithish Columbia. Fragmentación y biodiversidad. {{< video https://www.youtube.com/watch?v=CF47JU5ATV8&t=14s width="300" height="150" >}}
+
+Pablo Negret, The University of Queensland. Conservación de la biodiversidad. {{< video https://www.youtube.com/watch?v=BqUYYAb_iIs width="300" height="150" >}}
+
+Felipe Miguel Libran, University of Göttingen. Control de plagas del café. {{< video https://www.youtube.com/watch?v=rvT2C6F_Ffg width="300" height="150" >}}
+
+Gonzalo Pinilla, City University of New York. Modelos de nicho ecológico. {{< video https://www.youtube.com/watch?v=yvIcy-2mlaE width="300" height="150" >}}
+
+Sofía López-Cubillos, The University of Queensland. Servicios ecosistémicos. {{< video https://www.youtube.com/watch?v=A038S9dfdcM&t=157s width="300" height="150" >}}
+
+Juan Diego Martínez, University of British Columbia. Inequidad-Alimentación-Desarrollo sostenible. {{< video https://www.youtube.com/watch?v=myg720BP1TY width="300" height="150" >}}
+
+Carolina Montealegre, Universidad de Sao Pablo. Aves y paisajes antrópicos. {{< video https://www.youtube.com/watch?v=-BjsuRKKpZ8 width="300" height="150" >}}
+
+Camilo Alejo, McGill University. {{< video https://www.youtube.com/watch?v=prWppjhMkXI&t=102s width="300" height="150" >}}
+:::
+:::
+
+# 2. Outreach
+
+I have led impactful outreach and knowledge mobilization initiatives to bridge the gap between science and society, serving as a team leader, acting as a community liaison to foster local engagement, and training junior scientists in applied research and public communication.
+
+::: panel-tabset
+## Communications
+
+Mark Johnston (producer, writer, director from [Nomad Films Inc.](https://nomadfilms.ca/index.html)) to participate in a documentary about Jaguars of the Maracá-Jipioca Ecological Station island reserve in Brasil. Below is the proposal.
+
+![Jaguar Island documentary-proposal.](\images\Jaguar.pdf){#fig-my-pdf-plot width="100%" height="600px"}
+
+## Community liaison
+
+::: {.callout-note collapse="true"}
+## Team leader York University - COTERC. Tortuguero, Costa Rica (2010).
+
+-   I helped local communities to develop environmental-community-based projects.
+
+-   I helped to open a social web to raise funds based on the number of miles walked by volunteers (Miles for Smiles) and the number of bottles removed from 'Playa Norte' ('Pick it up'). Funds will be used to support community-based projects and postsecondary scholarships for local students.
+
+-   I helped to implement Zero plastic bags initiative aimed to: minimize local community's reliance on plastic bags by distributing and encouraging the use of fabric bags made by local women.
+:::
+
+::: {.callout-note collapse="true"}
+## Interpreter, Red-cross. Toronto, Canada (2007-2010).
+
+Volunteered as a bilingual interpreter for the Canadian Red Cross Disaster Management team in Toronto, facilitating critical communication during emergency response operations.
+:::
+
+::: {.callout-note collapse="true"}
+## Meal assistant and interpreter, World Vision. Toronto, Canada (2006-2009).
+
+Volunteered as a bilingual interpreter and cook for the World Vision Refugee Center in Toronto.
+:::
+:::

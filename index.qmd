@@ -1,15 +1,23 @@
 ---
-title: "Juan Zuloaga"
 format:
   html:
     self-contained: true
     link-external-icon: true
     link-external-newwindow: true
-toc: true
+    css:  styles.css
+toc: false
 editor: visual
-css:  styles.css
 ---
 
-<img src="images/Juan-Zuloaga-photo.jpg" alt="my_image" width="350" align="left" hspace="30"/>
+# Juan Zuloaga, PhD.
 
-#### I am a spatial ecologist and conservation scientist, interested in developing models and tools to inform biodiversity conservation.
+<img src="images/Juan-Zuloaga-photo.jpg" alt="my_image" width="310" align="left" hspace="30"/>
+
+<h4>
+***Biodiversity Conservation Scientist***</h4>
+::: {style="text-align: justify;"}
+#### I am a biodiversity conservation scientist who turns complex ecological data into practical solutions for nature and people.
+:::
+::: {style="text-align: justify;"}
+#### Working across sectors, I lead interdisciplinary teams to design, implement, and evaluate strategies that protect wildlife, restore natural habitats, foster sustainable local livelihoods, and advance national and global biodiversity targets.
+:::
