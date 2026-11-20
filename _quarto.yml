@@ -1,6 +1,9 @@
 project:
   type: website
-
+  output-dir: docs
+  resources:
+    - "/images/Jaguar.pdf"
+  
 website:
   title: "juanzuloaga_site"
   navbar:
