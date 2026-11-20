@@ -2,7 +2,7 @@ project:
   type: website
   output-dir: docs
   resources:
-    - "/Jaguar.pdf"
+    - "Jaguar.pdf"
   
 website:
   title: "juanzuloaga_site"
