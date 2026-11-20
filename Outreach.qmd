@@ -187,7 +187,7 @@ I have led impactful outreach and knowledge mobilization initiatives to bridge t
 
 Mark Johnston (producer, writer, director from [Nomad Films Inc.](https://nomadfilms.ca/index.html)) to participate in a documentary about Jaguars of the Maracá-Jipioca Ecological Station island reserve in Brasil. Below is the proposal.
 
-![Jaguar Island documentary-proposal.](\docs\images\Jaguar.pdf){#fig-my-pdf-plot width="100%" height="600px"}
+![Jaguar Island documentary-proposal.](\Jaguar.pdf){#fig-my-pdf-plot width="100%" height="600px"}
 
 ## Community liaison
 
