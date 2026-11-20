@@ -9,9 +9,11 @@ editor: visual
 ---
 
 # 1. Professional and academic services
+
 ::: {style="text-align: justify;"}
 I have provided extensive professional and academic service to sustain the scholarly community and advance institutional missions, including conducting peer reviews for scientific journals and mentoring, training, and advising emerging researchers and students. Several of these initiatives were carried out through Ecodiversa Tropical, a Colombian NGO dedicated to biodiversity conservation.
 :::
+
 ::: panel-tabset
 ## Training
 
@@ -187,7 +189,10 @@ I have led impactful outreach and knowledge mobilization initiatives to bridge t
 
 Mark Johnston (producer, writer, director from [Nomad Films Inc.](https://nomadfilms.ca/index.html)) to participate in a documentary about Jaguars of the Maracá-Jipioca Ecological Station island reserve in Brasil. Below is the proposal.
 
-![Jaguar Island documentary-proposal.](Jaguar.pdf){#fig-my-pdf-plot width="100%" height="600px"}
+<object data="Jaguar.pdf" type="application/pdf" width="100%" height="600px">
+  <p>Unable to display PDF file. <a href="Jaguar.pdf">Download Jaguar Island documentary-proposal</a> instead.</p>
+</object>
+
 
 ## Community liaison
 

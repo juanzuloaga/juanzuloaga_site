@@ -13,11 +13,18 @@ editor: visual
 
 <img src="images/Juan-Zuloaga-photo.jpg" alt="my_image" width="310" align="left" hspace="30"/>
 
-<h4>
-***Biodiversity Conservation Scientist***</h4>
+<h4>***Biodiversity Conservation Scientist***</h4>
+
 ::: {style="text-align: justify;"}
 #### I am a biodiversity conservation scientist who turns complex ecological data into practical solutions for nature and people.
 :::
+
 ::: {style="text-align: justify;"}
 #### Working across sectors, I lead interdisciplinary teams to design, implement, and evaluate strategies that protect wildlife, restore natural habitats, foster sustainable local livelihoods, and advance national and global biodiversity targets.
 :::
+
+```{=html}
+<div style="position: fixed; bottom: 15px; right: 15px; z-index: 1000; width: 200px;">
+  <a href="https://mapmyvisitors.com/web/1c9l9"  title="Visit tracker"><img src="https://mapmyvisitors.com/map.png?d=Lmx_422Fo0IAtlFsYJ6H63lv9wvLymUIinZ0DC9yZD4&cl=ffffff" /></a>
+</div>
+```
