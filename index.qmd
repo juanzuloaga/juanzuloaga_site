@@ -24,9 +24,22 @@ editor: visual
 :::
 
 ```{=html}
-<div class="rm2-globe" data-site="d9xth2ex27kz" data-size="200" data-theme="blue" data-color="ffb23f" style="position: fixed; bottom: 15px; right: 15px; z-index: 1000; width: 200px; height: 200px;"></div>
-<script src="https://revolvermaps2.com" async></script>
+<div id="rm2-container" style="position: fixed; bottom: 15px; right: 15px; z-index: 1000; width: 200px; height: 200px;"></div>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var s = document.createElement("script");
+    s.src = "https://revolvermaps2.com/embed.js";
+    s.setAttribute("data-site", "t479x676pecf");
+    s.setAttribute("data-size", "200");
+    s.setAttribute("data-theme", "blue");
+    s.setAttribute("data-color", "ffb23f");
+    s.async = true;
+    document.getElementById("rm2-container").appendChild(s);
+  });
+</script>
 ```
+
+
 
 
 
