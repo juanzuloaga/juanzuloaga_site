@@ -25,6 +25,6 @@ editor: visual
 
 ```{=html}
 <div style="position: fixed; bottom: 15px; right: 15px; z-index: 1000; width: 200px;">
-  <a href="https://mapmyvisitors.com/web/1c9l9"  title="Visit tracker"><img src="https://mapmyvisitors.com/map.png?d=Lmx_422Fo0IAtlFsYJ6H63lv9wvLymUIinZ0DC9yZD4&cl=ffffff" /></a>
+  <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=Lmx_422Fo0IAtlFsYJ6H63lv9wvLymUIinZ0DC9yZD4&cl=ffffff&w=a"></script>
 </div>
 ```
