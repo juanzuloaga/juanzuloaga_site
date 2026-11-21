@@ -24,7 +24,20 @@ editor: visual
 :::
 
 ```{=html}
-<div style="position: fixed; bottom: 15px; right: 15px; z-index: 1000; width: 200px;">
-  <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=Lmx_422Fo0IAtlFsYJ6H63lv9wvLymUIinZ0DC9yZD4&cl=ffffff&w=a"></script>
+
+<div id="visitor-map-box" style="position: fixed; bottom: 15px; right: 15px; z-index: 1000; width: 200px;"></div>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    if (!document.getElementById("mapmyvisitors")) {
+      var s = document.createElement("script");
+      s.type = "text/javascript";
+      s.id = "mapmyvisitors";
+      s.src = "//mapmyvisitors.com/map.js?d=Lmx_422Fo0IAtlFsYJ6H63lv9wvLymUIinZ0DC9yZD4&cl=ffffff&w=a";
+      document.getElementById("visitor-map-box").appendChild(s);
+    }
+  });
+</script>
+
+
 </div>
 ```
