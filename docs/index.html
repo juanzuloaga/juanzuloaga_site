@@ -4514,26 +4514,88 @@ vertical-align: -.125em;
 <h4 class="anchored" data-anchor-id="working-across-sectors-i-lead-interdisciplinary-teams-to-design-implement-and-evaluate-strategies-that-protect-wildlife-restore-natural-habitats-foster-sustainable-local-livelihoods-and-advance-national-and-global-biodiversity-targets.">Working across sectors, I lead interdisciplinary teams to design, implement, and evaluate strategies that protect wildlife, restore natural habitats, foster sustainable local livelihoods, and advance national and global biodiversity targets.</h4>
 </section>
 
-<div id="visitor-map-box" style="position: fixed; bottom: 15px; right: 15px; z-index: 1000; width: 200px;"></div>
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-    if (!document.getElementById("mapmyvisitors")) {
-      var s = document.createElement("script");
-      s.type = "text/javascript";
-      s.id = "mapmyvisitors";
-      s.src = "//mapmyvisitors.com/map.js?d=Lmx_422Fo0IAtlFsYJ6H63lv9wvLymUIinZ0DC9yZD4&cl=ffffff&w=a";
-      document.getElementById("visitor-map-box").appendChild(s);
+<script>/*! RevolverMaps2 visitor globe embed */
+(function () {
+  var DEFAULT_BASE = 'https://revolvermaps2.com';
+  var KEY = /^[a-z0-9]{12}$/;
+  var HEX = /^[0-9a-fA-F]{6}$/;
+  var SRC = /\/embed\.js(\?.*)?$/;
+
+  // Loaded twice on one page: just rescan.
+  if (window.RM2 && window.RM2.scan) { window.RM2.scan(); return; }
+
+  function baseFrom(src) { return src.replace(SRC, ''); }
+
+  var me = document.currentScript;
+  var base = (me && me.src && SRC.test(me.src)) ? baseFrom(me.src) : DEFAULT_BASE;
+
+  // Inside frame.php the real page is the referrer.
+  function pageUrl() {
+    if (window.top !== window.self && document.referrer) return document.referrer;
+    return location.href;
+  }
+
+  function mount(el) {
+    if (el.getAttribute('data-rm2-done')) return;
+    var key = el.getAttribute('data-site');
+    if (!key || !KEY.test(key)) return;
+    el.setAttribute('data-rm2-done', '1');
+
+    var isScript = el.tagName === 'SCRIPT';
+    var b = (isScript && el.src && SRC.test(el.src)) ? baseFrom(el.src) : base;
+
+    var size = parseInt(el.getAttribute('data-size'), 10) || 300;
+    size = Math.max(150, Math.min(800, size));
+    var theme = el.getAttribute('data-theme') || 'night';
+    var color = (el.getAttribute('data-color') || '').replace('#', '');
+    var land = (el.getAttribute('data-land') || '').replace('#', '');
+    var ocean = (el.getAttribute('data-ocean') || '').replace('#', '');
+
+    // Count this page view.
+    var ping = new Image(1, 1);
+    ping.referrerPolicy = 'no-referrer-when-downgrade';
+    ping.src = b + '/api/hit.php?k=' + key + '&u=' + encodeURIComponent(pageUrl()) + '&t=' + Date.now();
+
+    // Draw the globe.
+    var f = document.createElement('iframe');
+    f.src = b + '/widget.php?k=' + key + '&theme=' + encodeURIComponent(theme) +
+      (HEX.test(color) ? '&c=' + color : '') +
+      (HEX.test(land) ? '&land=' + land : '') +
+      (HEX.test(ocean) ? '&ocean=' + ocean : '');
+    f.width = size;
+    f.height = size;
+    f.title = 'Visitor globe';
+    f.loading = 'lazy';
+    f.setAttribute('scrolling', 'no');
+    f.style.cssText = 'border:0;display:block;max-width:100%;aspect-ratio:1/1;height:auto;background:transparent;overflow:hidden';
+
+    if (isScript) el.parentNode.insertBefore(f, el.nextSibling);
+    else el.appendChild(f);
+  }
+
+  function scan() {
+    var nodes = document.querySelectorAll('script[data-site], .rm2-globe[data-site]');
+    for (var i = 0; i < nodes.length; i++) {
+      var n = nodes[i];
+      if (n.tagName === 'SCRIPT' && !(n.src && SRC.test(n.src))) continue;
+      mount(n);
     }
-  });
-</script>
+  }
+
+  window.RM2 = { scan: scan };
+
+  if (me && me.getAttribute('data-site')) mount(me);
+  scan();
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', scan);
+  }
+})();</script>
 
 
-</section></main></div>
 
+</section>
 
-
-
- <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -4783,7 +4845,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
 });
 </script>
- <!-- /content -->
+</div> <!-- /content -->
 
 
 
